@@ -1,0 +1,35 @@
+# ASIX2 GP1F4A5.4 2023-2024 FJE CLOT
+ 
+# gp1f4a5.4
+
+## Requisits
+
+1. Virtualbox https://www.virtualbox.org/
+2. Vagrant https://www.vagrantup.com/
+
+## Pasos a seguir per iniciar(crear)/accedir/sortir/aturar/esborrar
+## una màquina virtual amb vagrant
+
+1. Accedeix al directori a on s'ha creat el fitxer Vagrantfile
+
+2. Inicia (i crea si encara no existeix) la màquina virtual amb
+   l'ordre:
+
+	vagrant up
+
+3. Accedeix a la màquina virtual per SSH amb l'ordre de Vagrant:
+
+	vagrant ssh
+
+4. Per sortir de la màquina virtual, executa l'ordre:
+
+	exit
+
+5. Atura la màquina virtual, executa l'ordre:
+
+	vagrant halt
+
+6. Esborra completament la màquina virtual, executant les ordres:
+
+	vagrant detroy
+	rm -rf ./vagrant
